@@ -1,0 +1,16 @@
+body {
+  /* display: block; */
+  /* flex-direction: column; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0rem;
+}
