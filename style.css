@@ -1,11 +1,36 @@
 body {
-  /* display: block; */
-  /* flex-direction: column; */
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dark-area {
+  background-color: #1F2937;
+  width: 100%;
+  display: block;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.header, .sec-1 {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .header {
-  display: flex;
   justify-content: space-between;
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.header-logo {
+  color: #F9FAF8;
+  font-size: 24px;
 }
 
 ul {
@@ -13,4 +38,13 @@ ul {
   display: flex;
   gap: 1rem;
   margin: 0rem;
+}
+
+.sec-1-card {
+  font-size: 18px;
+  color: #E5E7Eb;
+}
+
+h1.sec-1-card {
+  font: 48px extra-bold #F9FAF8;
 }
