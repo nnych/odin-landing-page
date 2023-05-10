@@ -3,6 +3,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
 }
 
 .dark-area {
@@ -15,7 +21,7 @@ body {
 }
 
 .header, .sec-1 {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -30,6 +36,7 @@ body {
 
 .header-logo {
   color: #F9FAF8;
+  font-weight: 800;
   font-size: 24px;
 }
 
@@ -40,11 +47,27 @@ ul {
   margin: 0rem;
 }
 
+.sec-1 {
+  padding: 80px 0px;
+}
+
 .sec-1-card {
   font-size: 18px;
   color: #E5E7Eb;
+  flex: 1;
 }
 
-h1.sec-1-card {
-  font: 48px extra-bold #F9FAF8;
+.sec-1-card h1 {
+  font-weight: 900;
+  font-size: 48px;
+  color: #F9FAF8;
+  margin: 1rem 0px;
+}
+
+.sec-1-card p {
+  margin: 1rem 0px;
+}
+
+.sec-1-card button {
+  background-color: #3882F6;
 }
