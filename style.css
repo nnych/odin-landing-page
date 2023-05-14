@@ -15,9 +15,6 @@ img {
   background-color: #1F2937;
   width: 100%;
   display: block;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .header, .sec-1 {
@@ -48,7 +45,8 @@ ul {
 }
 
 .sec-1 {
-  padding: 80px 0px;
+  padding: 80px 1rem;
+  gap: 1rem;
 }
 
 .sec-1-card {
@@ -70,4 +68,8 @@ ul {
 
 .sec-1-card button {
   background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 4px;
 }
