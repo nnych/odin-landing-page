@@ -11,14 +11,23 @@ img {
   width: 100%;
 }
 
+.header, .sec-1, .sec-2, .sec-3, .footer {
+  max-width: 900px;
+}
+
 .dark-area {
   background-color: #1F2937;
   width: 100%;
   display: block;
 }
 
+.grey-area {
+  background-color: #E5E7EB;
+  width: 100%;
+  display: block;
+}
+
 .header, .sec-1 {
-  max-width: 900px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -72,4 +81,33 @@ ul {
   border: none;
   padding: .5rem 1rem;
   border-radius: 4px;
+}
+
+.sec-2 {
+  padding-bottom: 80px;
+}
+
+.sec-2 h1 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.sec-2-card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 0 80px;
+}
+
+.sec-2-card {
+  flex-direction: column;
+  align-item: center;
+  flex: 1 1 100px;
+}
+
+.sec-2-card-image {
+  flex: 1 1 80px;
+  border-radius: 8px;
 }
